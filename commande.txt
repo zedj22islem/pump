@@ -1,0 +1,42 @@
+python telegramnot1m.py --interval 1m --range 3h --threshold 700% --watch --count 200
+
+python telegramnot1m.py --interval 1m --range 3h --threshold 700% --watch --count 200
+python telegramnot.py --interval 3m --range 4h --threshold 700% --watch --count 200
+python telegramnot15m.py --interval 15m --range 6h --threshold 400% --watch --count 200
+python telegramnot1h.py --interval 1h --range 1d --threshold 280% --watch --count 200
+python telegramnot4h.py --interval 4h --range 3d --threshold 280% --watch --count 200
+python telegramnot1d.py --interval 1d --range 1w --threshold 280% --watch --count 200
+
+python pump3m.py --interval 3m --range 1h --threshold 70% --watch --count 200
+
+python pump15m.py --interval 15m --range 4h --threshold 70% --watch --count 200
+
+python pump1h.py --interval 1h --range 1d --threshold 70% --watch --count 200
+
+
+
+
+
+
+python pump.py --interval 3m --range 1h --threshold 70% --watch --count 200
+python pump.py --interval 5m --range 1h --threshold 70% --watch --count 200
+python pump.py --interval 15m --range 3h --threshold 70% --watch --count 200
+python pump.py --interval 1h --range 1d --threshold 70% --watch --count 200
+
+
+
+
+
+
+
+
+
+python pump.py --interval=5m --range=3h --threshold=300%
+
+python pump.py --interval 5m --range 1h --threshold 1% --watch --count 10
+python pump.py --interval 3m --range 1h --threshold 35% --watch --count 21
+python pump.py --interval 3m --range 1h --threshold 50% --watch --count 200
+python pump.py --interval 3m --range 1h --threshold 70% --watch --count 200
+
+
+pip install requests pandas scikit-learn python-telegram-bot
